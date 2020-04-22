@@ -52,8 +52,8 @@ TEST(PracticeTest, sortDescending)
   int c = 1;
 
   obj.sortDescending(a, b, c);
-  ASSERT_LT(a, b);
-  ASSERT_LT(b, c);
+  ASSERT_GT(a, b);
+  ASSERT_GT(b, c);
 }
 
 
