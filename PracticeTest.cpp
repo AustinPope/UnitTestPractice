@@ -42,6 +42,14 @@ TEST(PracticeTest, is_simple_palindrome3)
     ASSERT_TRUE(actual);
 }
 
+TEST(PracticeTest, is_simple_palindrome3)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("A a ");
+    ASSERT_TRUE(actual);
+}
+
+
 
 TEST(PracticeTest, sortDescending)
 {
@@ -56,7 +64,28 @@ TEST(PracticeTest, sortDescending)
   ASSERT_GT(b, c);
 }
 
+TEST(PracticeTest, sortDescending)
+{
+  Practice obj;
+  bool check;
+  int a = 3;
+  int b = 1;
+  int c = 2;
 
+  obj.sortDescending(a, b, c);
+  ASSERT_GT(a, b);
+  ASSERT_GT(b, c);
+}
 
+TEST(PracticeTest, sortDescending)
+{
+  Practice obj;
+  bool check;
+  int a = 1;
+  int b = 2;
+  int c = 3;
 
-
+  obj.sortDescending(a, b, c);
+  ASSERT_GT(a, b);
+  ASSERT_GT(b, c);
+}
