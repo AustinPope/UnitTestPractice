@@ -47,9 +47,9 @@ TEST(PracticeTest, sortDescending)
 {
   Practice obj;
   bool check;
-  int a = 1;
+  int a = 3;
   int b = 2;
-  int c = 3;
+  int c = 1;
 
   obj.sortDescending(a, b, c);
   ASSERT_LT(a, b);
