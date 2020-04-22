@@ -64,7 +64,7 @@ TEST(PracticeTest, sortDescending)
   ASSERT_GT(b, c);
 }
 
-TEST(PracticeTest, sortDescending)
+TEST(PracticeTest, sortDescending1)
 {
   Practice obj;
   bool check;
@@ -77,7 +77,7 @@ TEST(PracticeTest, sortDescending)
   ASSERT_GT(b, c);
 }
 
-TEST(PracticeTest, sortDescending)
+TEST(PracticeTest, sortDescending2)
 {
   Practice obj;
   bool check;
