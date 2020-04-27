@@ -87,7 +87,7 @@ TEST(PracticeTest, sortDescending2)
   ASSERT_GT(b, c);
 }
 
-TEST(PracticeTest, sortDescending2)
+TEST(PracticeTest, sortDescending3)
 {
   Practice obj;
   int a = 2;
