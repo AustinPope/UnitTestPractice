@@ -49,7 +49,75 @@ TEST(PracticeTest, is_simple_palindrome4)
     ASSERT_FALSE(actual);
 }
 
+TEST(PracticeTest, is_simple_palindrome5)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("aaAA");
+    ASSERT_TRUE(actual);
+}
 
+TEST(PracticeTest, is_simple_palindrome6)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("aAaA");
+    ASSERT_TRUE(actual);
+}
+
+TEST(PracticeTest, is_simple_palindrome7)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("AaAa");
+    ASSERT_TRUE(actual);
+}
+
+TEST(PracticeTest, is_simple_palindrome8)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome(" aAAa ");
+    ASSERT_TRUE(actual);
+}
+
+TEST(PracticeTest, is_simple_palindrome9)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("a");
+    ASSERT_TRUE(actual);
+}
+
+TEST(PracticeTest, is_simple_palindrome10)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("a");
+    ASSERT_TRUE(actual);
+}
+
+TEST(PracticeTest, is_simple_palindrome11)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("");
+    ASSERT_TRUE(actual);
+}
+
+TEST(PracticeTest, is_simple_palindrome12)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("ba");
+    ASSERT_FALSE(actual);
+}
+
+TEST(PracticeTest, is_simple_palindrome13)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("Ba");
+    ASSERT_FALSE(actual);
+}
+
+TEST(PracticeTest, is_simple_palindrome14)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("bA");
+    ASSERT_FALSE(actual);
+}
 
 TEST(PracticeTest, sortDescending)
 {
