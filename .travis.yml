@@ -13,7 +13,6 @@ before_install:
   - cd ${CURRENT_PROJ_DIR}
   - pip install --user cpp-coveralls
 
-
 script:
   - make clean
   - make
