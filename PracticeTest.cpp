@@ -119,6 +119,13 @@ TEST(PracticeTest, is_simple_palindrome14)
     ASSERT_FALSE(actual);
 }
 
+TEST(PracticeTest, is_simple_palindrome14)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("bAA");
+    ASSERT_FALSE(actual);
+}
+
 TEST(PracticeTest, sortDescending)
 {
   Practice obj;
