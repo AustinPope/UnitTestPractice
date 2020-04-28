@@ -20,7 +20,7 @@ void Practice::sortDescending(int & first, int & second, int & third)
     third = temp;
   }
 
-  //deleted--------------------------
+  //deleted---------------------------
   /*if( first < third )
   {
     int temp = first;
@@ -28,7 +28,7 @@ void Practice::sortDescending(int & first, int & second, int & third)
     third = temp;
   }*/
 
-  //added--------------------------
+  //added---------------------------
   if( first < second )
   {
     int temp = first;
