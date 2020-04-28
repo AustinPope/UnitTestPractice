@@ -75,6 +75,30 @@ TEST(PracticeTest, sortDescending1)
   ASSERT_GT(b, c);
 }
 
+TEST(PracticeTest, sortDescending3)
+{
+  Practice obj;
+  int a = 2;
+  int b = 3;
+  int c = 1;
+
+  obj.sortDescending(a, b, c);
+  ASSERT_GT(a, b);
+  ASSERT_GT(b, c);
+}
+
+TEST(PracticeTest, sortDescending3)
+{
+  Practice obj;
+  int a = 2;
+  int b = 1;
+  int c = 3;
+
+  obj.sortDescending(a, b, c);
+  ASSERT_GT(a, b);
+  ASSERT_GT(b, c);
+}
+
 TEST(PracticeTest, sortDescending2)
 {
   Practice obj;
@@ -90,9 +114,9 @@ TEST(PracticeTest, sortDescending2)
 TEST(PracticeTest, sortDescending3)
 {
   Practice obj;
-  int a = 2;
-  int b = 1;
-  int c = 3;
+  int a = 1;
+  int b = 3;
+  int c = 2;
 
   obj.sortDescending(a, b, c);
   ASSERT_GT(a, b);
